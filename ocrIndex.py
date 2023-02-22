@@ -1,3 +1,4 @@
+# print("Am working...")
 import cv2
 import pytesseract
 
@@ -26,5 +27,7 @@ for contour in contours:
     roi = gray[y:y+h, x:x+w]
     
     # Use PyTesseract to extract text from ROI
-    text = pytesseract.image_to_string(roi)
-    print(text)
+    # text = pytesseract.image_to_string(roi)
+    # print(text)
+
+print(pytesseract.image_to_string(roi))
