@@ -17,5 +17,5 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 .DS_Store
-.ocrvenv/
-__pycache__/
+ocrvenv
+__pycache__
