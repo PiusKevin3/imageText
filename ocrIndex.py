@@ -2,7 +2,7 @@
 import cv2
 import pytesseract
 
-# Read image
+# Read 778920 image 
 image = cv2.imread("./tabular data image.jpg")
 
 # Convert to grayscale``
